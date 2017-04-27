@@ -1,0 +1,86 @@
+header {
+    clear:both;
+    margin-bottom:5% ;
+    padding: 50px ;
+    border-bottom:2px ;
+    background-color: white;
+    border-color:grey;
+    border-style: solid;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    
+
+}
+#main{
+    width:650px;
+}
+body{
+    width:960px;
+    
+    background: url(http://d3ujb2t8x8alxd.cloudfront.net/rmgpsc/7867/body-bg.gif) 0 0 repeat #000;    
+}
+#BioBox{
+    float:left;
+    position:relative;
+    background-color:beige;
+    color:black;
+    top: 100px;
+    left: 100px;
+    width: 50%;
+    height: 50%;
+}
+
+#Name{
+    margin: 1px;
+    position:fixed;
+    padding:41px;
+    background-color:beige;
+    float:left;
+    top: 0px;
+    left: 100px;
+
+}
+
+#links{
+    float:left;
+    position:fixed;
+    padding:42px;
+    background-color:beige;
+    top:0px;
+    right: 100px;
+
+}
+#ProfilePic{
+    width:150px;
+    height: 150px;
+}
+footer {
+    margin-top:5% ;
+    padding: 50px;
+    border-top: 2px ;
+    background-color:beige;
+    border-color: grey;
+    border-style: solid;
+    text-align: center;
+    position:fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+#Connectbox{
+    clear:both;
+    float:right;
+    background-color:beige;
+    color:black;
+    position:relative;
+    right:0px;
+    width:20%;
+    bottom:160px;
+
+
+
+    
+
+}
