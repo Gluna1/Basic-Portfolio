@@ -3,13 +3,14 @@ header {
     margin-bottom:5% ;
     padding: 50px ;
     border-bottom:2px ;
-    background-color: white;
-    border-color:grey;
+    background-color:#ffffff;
+    border-color:#cccccc;
     border-style: solid;
     position: fixed;
     top: 0px;
     right: 0px;
     left: 0px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
     
 
 }
@@ -19,27 +20,34 @@ header {
 body{
     width:960px;
     
-    background: url(http://d3ujb2t8x8alxd.cloudfront.net/rmgpsc/7867/body-bg.gif) 0 0 repeat #000;    
+    background: #466368;
+    background: radial-gradient(#648880, #293f50);
 }
 #BioBox{
     float:left;
     position:relative;
-    background-color:beige;
+    background-color:#ffffff;
     color:black;
     top: 100px;
-    left: 100px;
+    left: 150px;
     width: 50%;
     height: 50%;
+    border: 1px solid #dddddd;
 }
 
 #Name{
     margin: 1px;
     position:fixed;
     padding:41px;
-    background-color:beige;
+    background-color:#4aaaa5;
     float:left;
     top: 0px;
-    left: 100px;
+    left: 150px;
+    font-family: ;
+    font-style:bold;
+    color: #ffffff;
+
+
 
 }
 
@@ -47,9 +55,9 @@ body{
     float:left;
     position:fixed;
     padding:42px;
-    background-color:beige;
+    background-color:#ffffff;
     top:0px;
-    right: 100px;
+    right: 150px;
 
 }
 #ProfilePic{
@@ -58,10 +66,10 @@ body{
 }
 footer {
     margin-top:5% ;
-    padding: 50px;
-    border-top: 2px ;
-    background-color:beige;
-    border-color: grey;
+    padding: 35px;
+    border-top: 5px ;
+    background-color:#666666;
+    border-color: #4aaaa5;
     border-style: solid;
     text-align: center;
     position:fixed;
@@ -72,15 +80,11 @@ footer {
 #Connectbox{
     clear:both;
     float:right;
-    background-color:beige;
+    background-color:#ffffff;
     color:black;
     position:relative;
-    right:0px;
+    right:-200px;
     width:20%;
     bottom:160px;
-
-
-
-    
 
 }
